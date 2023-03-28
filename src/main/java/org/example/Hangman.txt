@@ -1,0 +1,24 @@
+This year, 2020, marks the 25th anniversary of the Java programming language. One of the most widely used programming languages, Java is used as the server-side language for most back-end development projects, including those involving big data and Android development.
+Java is also commonly used for desktop computing, other mobile computing, games, and numerical computing. The popularity of Java is further evidenced with 90% of all Fortune 500 companies using Java.
+So how popular is Java? Very.
+The TIOBE Programming Community publishes an index showing the popularity of programming languages. The index is updated several times per year. The top ten programming languages, per the latest report, are shown below.
+Note that Java has consistently held the number-one slot in the index since 2004!
+
+Why Do Software Developers Use Java?
+The portability of Java contributes to its wide use and popularity, but there are other reasons why software developers continue to choose Java.
+Since it is an object-oriented language; it’s robust, secure and relatively simpler and easier to learn than languages such as C and C++.
+Object-oriented languages make complex problems easier to solve and provide greater modularity. This is a natural and pragmatic approach for software design. Java objects encapsulate data and behavior so that code can be reused, which makes testing and troubleshooting easier.
+With Java, objects are created using classes that define the attributes (data) and behaviors (defined by methods coded in the class). Java features such as inheritance further contribute to simplified code. With inheritance, similar but different types of objects are simplified by inheriting common attributes and behaviors from the parent class. This allows reuse of the common code while allowing for differences.
+How to Learn Java Programming
+If you’re a developer, you’ll find that time invested in learning more about the Java programming language is time well-spent.
+Consider training from the source with Oracle University’s Java curriculum.
+Then validate your new knowledge and skills by earning an Oracle Java Certification.
+Related:  Learn Java Fundamentals in Five Weeks with this Massive Open Online Course (MOOC)
+At Oracle University, we have recently launched two new Java SE 11 courses:
+Java SE: Programming I
+This entry-level course is aimed at programmers who are new to Java and who need to learn its concepts, language constructs, and data types. Explore exception handling, lambda expressions, and modular programming.
+Java SE: Programming II
+This is a second-level course for people learning the Java language. It provides the additional key skills needed by Java programmers. This course uses today's main Java version for its practices (currently Java 11).
+How to Start a Career in Java Programming
+With booming demand across industries worldwide, professionals who not only learn Java, but are formally trained and certified, can set themselves up for a promising, challenging, and rewarding career.
+All you have to do is take the first step to begin your Java journey
