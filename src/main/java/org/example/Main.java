@@ -3,8 +3,10 @@ package org.example;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
@@ -24,6 +26,7 @@ public class Main {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String sText = readAllLines(bufferedReader);
             String [] WordsOfText = SplitAndCleanWords(sText);
+
 
             //making sure the word to guess is longer than 3 letters
             boolean bIsWordChosen = false;
@@ -201,13 +204,24 @@ public class Main {
         return sWord;
     }
     private static String[] SplitAndCleanWords(String sText) {
-        String[] sCharacters = {".", ",", ":", "'", "!", "-"};
+        String[] sCharactersToDelete = {".", ",", ":", "'", "!", "(", ")"};
+        String[] sCharactersToReplace = {"-"};
 
-            for (String s: sCharacters){
-                sText = sText.replace(s, "");
+            for (String cd: sCharactersToDelete){
+                sText = sText.replace(cd, "");
             }
 
-        return sText.split(" ");
+            for (String cr:sCharactersToReplace){
+                sText = sText.replace(cr, "");
+            }
+
+            String[] SplitText = sText.split(" ");
+
+            String[] ListOfWords = Arrays.stream(SplitText)
+                    .filter(s->s.length()>3)
+                    .toArray(size->new String[size]);
+
+        return ListOfWords;
 
     }
     private static String readAllLines(BufferedReader bufferedReader) throws IOException {
